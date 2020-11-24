@@ -39,7 +39,7 @@
                                                 <rect key="frame" x="50" y="0.0" width="274" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duo-V3-QM8">
                                                 <rect key="frame" x="334" y="0.0" width="40" height="40"/>
@@ -112,6 +112,12 @@
                             <constraint firstItem="trF-A0-1kC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sRl-PR-hXh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="5MN-my-gUH" id="kxw-R0-Wlk"/>
+                        <outlet property="conditionImageView" destination="gqC-25-ibC" id="wyK-eF-M2c"/>
+                        <outlet property="searchTextField" destination="ujp-RD-b3g" id="iXE-Y9-hJK"/>
+                        <outlet property="temperatureLabel" destination="5nJ-Rh-Sq4" id="wZK-AK-U8t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
